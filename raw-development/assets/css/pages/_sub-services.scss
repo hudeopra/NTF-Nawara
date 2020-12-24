@@ -1,0 +1,49 @@
+.mt-air-freight .mt-billboard__image{
+    background: url(../img/air-service.jpg) center;
+}
+.mt-land-tranport .mt-billboard__image{
+    background: url(../img/land-tranport.jpg) center;
+}
+.mt-sub-service{
+    .mt-service{
+        &__list{
+            &--content-wrapper{
+                order: 2;
+            }
+            &--image{
+                order: 1;
+            }
+        }
+    }
+    .mt-service__list--item .mt-icon:after, 
+    .mt-service__list--item .mt-icon:before{
+        left: auto;
+        right: 0;
+        transform: translate(50%, -50%);
+    }
+    .mt-quote{
+        &__form,
+        &__content{
+            background: #3598D9;
+            color: $white;
+        }
+        &__description,
+        &__form--input label{
+            color: $white;
+        }
+    }
+    .mt-stats{
+        background: url(../img/stats-bg.png) center no-repeat;
+        background-color: #EEF3F6;
+        .mt-section__header--secondary{
+            color: #3598D9;
+        }
+    } 
+    .mt-stats .mt-section__header--primary, 
+    .mt-stats .mt-stats__option{
+        color: $blue;
+    }
+    .mt-stats .mt-stats__option .mt-icon{
+        color: rgba(53, 152, 217, 0.5);
+    }
+}

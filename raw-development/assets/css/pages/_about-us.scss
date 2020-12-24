@@ -1,0 +1,44 @@
+.mt-about-us{
+    font-family: $lato;
+    .mt-billboard__image {
+        background: url(../img/about-billboard.jpg) center;
+    }
+    .mt-title{
+        font-weight: 700;
+        font-size: 35px;
+        color:$blue;
+        margin-bottom: 30px;
+    }
+    .mt-sub-title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color:$paragraph-gray-light;
+        margin-bottom: 15px;
+    }
+    .mt-description{
+        font-family: $cairo;
+        font-size: 18px;
+        font-size: 400;
+        color:$paragraph-gray-light;
+    }
+    .mt-mission-values{
+        background: $blue url(../img/mission-values.svg)  center 5% no-repeat;
+        .mt-title,
+        .mt-description{
+            color: #fff;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .mt-mission-values,
+    .mt-about-us__info{
+        > div:first-of-type .mt-description{
+            margin-bottom: 30px;
+        }
+        .mt-title{
+            margin-bottom: 15px;
+        }
+    }
+    
+}

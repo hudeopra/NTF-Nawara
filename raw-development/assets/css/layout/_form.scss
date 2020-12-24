@@ -1,0 +1,72 @@
+.mt-support__form--input,
+.mt-quote__form--input{
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+    label{
+        width: 100%;
+        font-size: 16px;
+        color: $paragraph-gray-dark;
+        margin-bottom: 6px;
+        font-weight: 800;
+    }
+    input,select,textarea{
+        font-size: 18px;
+        color: $icon-gray-light;
+        border:1.5px solid #c0c0c0;
+        border-radius: 4px;
+        width: 100%;
+            padding: 10px 15px;
+    }
+    select,textarea{
+        outline: none;
+    }
+    textarea{
+        height: 90px;
+
+    }
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 18px;
+        color: $icon-gray-light;
+    }
+    span{
+        color: red;
+        font-weight: bold;
+    }
+}
+// quote
+.mt-quote__content.col-12.mt-step-2,
+.mt-quote__content.col-12.mt-step-3,
+.mt-quote__content.col-12.mt-step-4,
+.mt-quote__content.col-12.mt-step-5,
+.mt-quote__content.col-12.mt-step-6{
+    justify-content: unset;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    place-content: center;
+}
+.mt-quote__content.col-12.mt-step-6 textarea{
+    height: 340px;
+}
+.mt-quote__form-wrapper{
+    margin-left: 15px;
+    overflow: hidden;
+}
+.mt-quote__form-step-wrapper{
+    display: flex;
+}
+.mt-quote__form{
+    background-color: $white;
+}
+.mt-quota-page{
+    textarea{
+        height: 200px;
+    }
+}
+@media screen and (max-width:991px){.mt-quote__form{
+    order: 2;
+}
+    .mt-quote__form-wrapper{
+    }
+}

@@ -1,0 +1,34 @@
+$blue: #005BA9;
+$white: #fff;
+$red: #C65A5A;
+$heading-gray-primary: #333;
+$paragraph-gray-dark: #696969;
+$paragraph-gray-light: #8A8A8A;
+$paragraph-white-dark: #DCDCDC;
+$icon-gray-light: #A9A9A9;
+$icon-gray-dark: #808080;
+$icon-blue-light: #00A3FF;
+$placeholder-gray-light: #A9A9A9;
+
+$cairo: 'Cairo', sans-serif;
+$lato:  'Lato', sans-serif;
+<li class="mt-quote__options--item" for="mt-sea-freight-lcl">
+<input type="radio" id="mt-air-freight" name="quote-option" value="Air Freight" aria-label="Air Freight">
+<span>Air Freight</span>
+</li>
+<li class="mt-quote__options--item">
+<input type="radio" id="mt-ocean-freight-lcl" name="quote-option" value="Ocean Freight LCL" aria-label="Ocean Freight LCL">
+<span>Ocean Freight LCL</span>
+</li>
+<li class="mt-quote__options--item">
+<input type="radio" id="mt-ocean-freight-fcl" name="quote-option" value="Ocean Freight FCL" aria-label="Ocean Freight FCL">
+<span>Ocean Freight FCL</span>
+</li>
+<li class="mt-quote__options--item">
+<input type="radio" id="mt-custom-clearance" name="quote-option" value="Custom Clearance" aria-label="Custom Clearance">
+<span>Custom Clearance</span>
+</li>
+<li class="mt-quote__options--item">
+<input type="radio" id="mt-transportation" name="quote-option" value="transportation" aria-label="transportation">
+<span> Transportation</span>
+</li>

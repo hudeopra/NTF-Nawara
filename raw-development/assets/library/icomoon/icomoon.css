@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?ezxcr2');
+  src:  url('icomoon.eot?ezxcr2#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?ezxcr2') format('truetype'),
+    url('icomoon.woff?ezxcr2') format('woff'),
+    url('icomoon.svg?ezxcr2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+ /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-air-cargo:before {
+  content: "\e900";
+  color: #3598d9;
+}
+.icon-supply-chain:before {
+  content: "\e902";
+}
+.icon-cargo-truck:before {
+  content: "\e903";
+}
+.icon-warehouse:before {
+  content: "\e908";
+}
+.icon-air-freight:before {
+  content: "\e909";
+}
+.icon-analytics:before {
+  content: "\e91f";
+}
+.icon-ocean-service1 .path1:before {
+  content: "\e905";
+  color: rgb(0, 91, 169);
+}
+.icon-ocean-service1 .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 91, 169);
+  opacity: 0.3;
+}
+.icon-ocean-service1 .path3:before {
+  content: "\e907";
+}
+.icon-Icon-awesome-instagram:before {
+  content: "\e90b";
+}
+.icon-Icon-awesome-linkedin:before {
+  content: "\e90d";
+}
+.icon-Icon-awesome-twitter-square:before {
+  content: "\e90e";
+}
+.icon-Icon-awesome-facebook-square:before {
+  content: "\e90f";
+}
+.icon-cargo-ship:before {
+  content: "\e910";
+}
+.icon-container-truck:before {
+  content: "\e911";
+}
+.icon-arrow_right:before {
+  content: "\e912";
+}
+.icon-small-business-service:before {
+  content: "\e913";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+
+
+
+.mt-quote .mt-quote__wrapper{
+  width: 100%;
+  background: var(--plain);
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out 0s;
+} 
+/* .mt-quote__wrapper{
+position:absolute;
+  z-index: 1;
+  width: 800px;
+  top: -150px;
+} */
+.mt-quote-overlay{
+
+  position: absolute;
+  height: 300vh;
+  width: 300vw;
+  background: #1e1e1e;
+opacity:0;
+visibility:hidden;
+  top: -100vh;
+  left: -100vw;
+z-index:4;
+}
+
+.mt-quote.mt-open .mt-quote__wrapper,
+.mt-quote.mt-open .mt-quote-overlay{
+  visibility: visible;
+  opacity: 1;
+  pointer-events: inherit;
+}
+.mt-quote.mt-open .mt-quote-overlay{
+opacity:.85;
+}
+.mt-quote .mt-stats__option--counter:before, .mt-quote .mt-stats__option--counter:after{
+ background:red;
+top:10px;
+right:20px;
+z-index:1;
+}

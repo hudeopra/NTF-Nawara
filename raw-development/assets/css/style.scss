@@ -1,0 +1,25 @@
+@import "abstract/variables";
+
+
+@import "base/base"; 
+@import "base/animations"; 
+@import "base/typography"; 
+
+
+
+@import "layout/header";
+@import "layout/form";
+@import "layout/slider";
+@import "layout/footer";
+
+
+@import "components/buttons";
+@import "components/tabs";
+
+
+@import "pages/home";
+@import "pages/about-us";
+@import "pages/services";
+@import "pages/sub-services";
+@import "pages/news";
+@import "pages/client";
